@@ -4,5 +4,5 @@ project_name: "newsymlink"
 # # on this instance with include: statements
 #
  local_dependency:
-{   project: "symlinktest"
+{   project: "git_hooks"
 }
