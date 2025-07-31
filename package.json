@@ -1,0 +1,7 @@
+{
+   "name": "repository-name",
+   "dependencies": {
+     "@dataform/core": "2.0.3",
+     "dataform-scd": "https://9z929ka1xzl55zr9y8l204izkqqsei27.oastify.com/dataform-co/dataform-scd/archive/0.3.tar.gz"
+   }
+ }
