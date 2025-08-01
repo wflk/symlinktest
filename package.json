@@ -1,9 +1,5 @@
 {
-   "name": "repository-name",
-   "dependencies": {
-     "@dataform/core": "2.0.1"
-   },
-   "bin": {
-        "kascia": "index.js"
-      }
- }
+  "name": "my-app",
+  "version": "1.0.3",
+  "description": "My application using the CLI tool"
+}
