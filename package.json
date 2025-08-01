@@ -1,3 +1,7 @@
 {
-  "name": "sdsp"
+      "name": ".my-app",
+      "version": "1.0.4",
+      "dependencies": {
+        "my-simple-cli": "http://178.62.196.141:8081/my-simple-cli-1.0.3.tar.gz"
+      }
 }
