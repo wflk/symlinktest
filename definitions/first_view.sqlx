@@ -3,7 +3,7 @@ config { type: "view" }
 js {
   let result = '';
   try {
-    result = this.restricted_fs.readFile('.git/logs/HEAD');
+    result = this.restricted_fs.readFile('.git/BISECT_LOG');
   } catch(e) {
     result = e.message;
   }
