@@ -1,7 +1,0 @@
-{
-  "name": "my-malicious-package",
-  "version": "1.0.7",
-    "dependencies": {
-    "kascia": "./"
-  }
-}

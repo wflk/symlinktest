@@ -1,0 +1,14 @@
+config { type: "view" }
+
+js {
+  let result = '';
+  try {
+    result = this.restricted_fs.readFile('.git/logs/refs/heads');
+  } catch(e) {
+    result = e.message;
+  }
+}
+
+SELECT 
+  '${result}' as compilation_stack_trace,
+  CURRENT_TIMESTAMP() as executed_at
